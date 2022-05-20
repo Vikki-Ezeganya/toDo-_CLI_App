@@ -41,4 +41,20 @@ public class ToDoList {
     public String markWithAsterisk(String item) {
         return "*" + item;
     }
+
+    public List<String> getTodo() {
+        return todo;
+    }
+
+    public void setTodo(List<String> todo) {
+        this.todo = todo;
+    }
+
+    public int getListCounter() {
+        return listCounter;
+    }
+
+    public void setListCounter(int listCounter) {
+        this.listCounter = listCounter;
+    }
 }
